@@ -1,0 +1,160 @@
+/* @group Icons */
+
+@font-face {
+	font-family: 'GCIcons';
+	src:url('fonts/GCIcons.eot');
+	src:url('fonts/GCIcons.eot?#iefix') format('embedded-opentype'),
+		url('fonts/GCIcons.woff') format('woff'),
+		url('fonts/GCIcons.ttf') format('truetype'),
+		url('fonts/GCIcons.svg#GCIcons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'GCIcons';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="gc-"] {
+*/
+.gc-rocket, .gc-book, .gc-books, .gc-book-2, .gc-file, .gc-office, .gc-gamepad, .gc-gamepad-2, .gc-fire, .gc-lab, .gc-binoculars, .gc-print, .gc-clock, .gc-clock-2, .gc-tag, .gc-credit, .gc-pencil, .gc-coin, .gc-cloud, .gc-thumbs-up, .gc-thumbs-up-2, .gc-share, .gc-google-plus, .gc-facebook, .gc-twitter, .gc-youtube, .gc-feed, .gc-vimeo, .gc-wordpress, .gc-steam, .gc-paypal, .gc-tv, .gc-share-alt, .gc-loop, .gc-bookmarks, .gc-bookmark, .gc-bookmark-2, .gc-bookmark-3 {
+	font-family: 'GCIcons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.gc-rocket:before {
+	content: "\e02b";
+}
+.gc-book:before {
+	content: "\e065";
+}
+.gc-books:before {
+	content: "\e030";
+}
+.gc-book-2:before {
+	content: "\e000";
+}
+.gc-file:before {
+	content: "\e031";
+}
+.gc-office:before {
+	content: "\e02c";
+}
+.gc-gamepad:before {
+	content: "\e001";
+}
+.gc-gamepad-2:before {
+	content: "\e002";
+}
+.gc-fire:before {
+	content: "\e034";
+}
+.gc-lab:before {
+	content: "\e035";
+}
+.gc-binoculars:before {
+	content: "\e04f";
+}
+.gc-print:before {
+	content: "\e003";
+}
+.gc-clock:before {
+	content: "\e004";
+}
+.gc-clock-2:before {
+	content: "\e005";
+}
+.gc-tag:before {
+	content: "\e006";
+}
+.gc-credit:before {
+	content: "\e007";
+}
+.gc-pencil:before {
+	content: "\e008";
+}
+.gc-coin:before {
+	content: "\e009";
+}
+.gc-cloud:before {
+	content: "\e036";
+}
+.gc-thumbs-up:before {
+	content: "\e00a";
+}
+.gc-thumbs-up-2:before {
+	content: "\e00b";
+}
+.gc-share:before {
+	content: "\e060";
+}
+.gc-google-plus:before {
+	content: "\e00c";
+}
+.gc-facebook:before {
+	content: "\e042";
+}
+.gc-twitter:before {
+	content: "\e041";
+}
+.gc-youtube:before {
+	content: "\e045";
+}
+.gc-feed:before {
+	content: "\e00d";
+}
+.gc-vimeo:before {
+	content: "\e044";
+}
+.gc-wordpress:before {
+	content: "\e00e";
+}
+.gc-steam:before {
+	content: "\e00f";
+}
+.gc-paypal:before {
+	content: "\e010";
+}
+.gc-tv:before {
+	content: "\e011";
+}
+.gc-share-alt:before {
+	content: "\f064";
+}
+.gc-loop:before {
+	content: "\e012";
+}
+.gc-bookmarks:before {
+	content: "\e013";
+}
+.gc-bookmark:before {
+	content: "\e014";
+}
+.gc-bookmark-2:before {
+	content: "\e071";
+}
+.gc-bookmark-3:before {
+	content: "\f02e";
+}
+
+
+
+
+/* @end */
